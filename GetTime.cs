@@ -7,6 +7,10 @@ namespace WindowsFormsApplication1
 {
     class GetTime
     {
+    	string time;
+    	public void setTime(string time){
+    		this.time = time;
+    	}
         public string getDateToday() {
             return DateTime.Now.ToString("yyyy-MM-dd");
         }
