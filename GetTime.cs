@@ -11,6 +11,7 @@ namespace WindowsFormsApplication1
     	public void setTime(string time){
     		this.time = time;
     	}
+    	public void show(){}
         public string getDateToday() {
             return DateTime.Now.ToString("yyyy-MM-dd");
         }
